@@ -7,7 +7,6 @@ import com.sample.data.search.remotedatasource.SearchAPIService
 import com.sample.domain.search.SearchRepository
 import com.sample.domain.search.model.SearchDataState
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.IOException
 import javax.inject.Inject

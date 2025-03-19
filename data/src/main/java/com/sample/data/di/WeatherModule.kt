@@ -17,8 +17,8 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 data object WeatherModule {
 
-    @Singleton
     @Provides
+    @Singleton
     fun provideOkHttpClient(): OkHttpClient {
         val loggingInterceptor = HttpLoggingInterceptor()
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
